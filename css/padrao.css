@@ -1,19 +1,15 @@
-
-.menu {
-    background-color: #BDBDBD;
-    float: left;
+.menu ul { background: #BDBDBD;
 }
 
-.menu, li {
-    float: left;
-    line-height: 100%;
-    padding: 0 20px;
-}
-
-
-.menu, li, ul {
+.menu ul li {
     display: inline-block;
-   }
+    float:  ;
+}
+
+.menu, ul, li, a {
+    text-decoration: none;
+    font-size: 
+}
 
 
 .titulo {
@@ -26,21 +22,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 .todasLetras {
     display: inline;
 }
-
 
 footer {
     padding: 0;
     margin: 0;
     color: white;
-    background: black;
-    
+    background: black;    
 }
-
 
 footer p {
     padding: 2%;
