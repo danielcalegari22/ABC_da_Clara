@@ -1,0 +1,53 @@
+
+.menu ul { 
+    width: 100%;
+    height: 50px;
+    background: #BDBDBD;
+    margin-left: 100px;
+
+}
+
+.menu ul li {
+    display: inline-block; /*Permite que os itens da lista sejam um ao lado do outro.*/
+    float: left;
+    line-height: 50px;
+
+}
+
+.menu ul li a {
+    display: block; /* Permite que o Link seja em toda área de conteúdo e não só na palavra */
+    text-decoration: none; /* retira o sublinhado padrão*/
+    font-size: 100%; /* Tamanho da Fonte */
+    padding: 0 10px; 
+}
+
+.menu ul li a:hover { /*Efeito de Hover nos botões do Menu */
+    color: red; 
+}
+
+
+
+.titulo {
+    font-size: 1em;
+    padding: 3% 0% 1% 0%;
+}
+
+.titulo p {
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todasLetras {
+    display: inline;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: black;    
+}
+
+footer p {
+    padding: 2%;
+}
