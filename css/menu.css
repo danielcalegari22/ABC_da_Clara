@@ -9,11 +9,13 @@
    
 }
 
+
+
+
 .barraMenu, .itemMenu, li {
     display: inline-block;
+    line-height: 80px;
 }
-
-
 
 
 .barraMenu, .itemMenu, .logo, img {
@@ -23,4 +25,5 @@
 
 .barraMenu, .itemMenu, li, a {
     text-decoration: none;
+    padding: 0 20px;
 }
